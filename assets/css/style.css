@@ -1,137 +1,22 @@
-/*
-селектор {
-    свойство1: значение1;
-    свойство2: значение2;
-    .....
-    свойство20: значение20;
-    ...
-} 
-
-*/
-
-/*
-p{
-    font-size: 14px; размер шрифта в px
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600; толщина normal-400, bold-600/800
-    font-style: italic; стиль italic, normal
-    font-stretch: wider; растяжимость
-    
-    color: blue; стандартное значение
-    color: #0000ff; 16-код модель красный+зеленый+синий
-    color: rgb(246, 250, 14) модель красный+зеленый+синий
-    color: rgba(246, 250, 14, 0.5) модель красный+зеленый+синий, a - прозрачность от 0 до 1
-    
-    color: rgba(0,0,255,0.7);
-    background-color: yellow; фон - выдедение
-    text-transform: lowercase; регистр uppercase, lowercase
-    letter-spacing: 5px;
-    word-spacing: 10px;
-    opacity: 0.5; прозрачность для всего элемента
-}
-*/
-
-/*
-h1{
-    color: red;
+div{
+    margin: 0px;
+    width: 300px;
+    height: 150px;
+    border: 2px solid orange;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
-h2{
-    color: orange;
-}
-*/
-
-/* атрибут class является глобальным и можно задать для любого элемента
-созданный класс стилей можно использовать для любого количества элементов
-*/
-
-/*
-.img_class{
-    height: 200px;
-    width: 350px;
+.div2{
+    margin-left: -15px;
 }
 
-.mark_for_paragraph{
-    background-color: lightblue;
-    font-weight: bold;
-}
-
-.bigsize_for_paragraph{
-    font-size: 22px;
-}
-
-.text_to_uppercase{
-    text-transform: uppercase;
-}
-
-p{
-    font-size: 16px;
-    font-weight: normal;
-}
-
-*/
-
-.cardContainer{
+.container{
+    background-color: yellow;
     border: 2px solid blue;
-    border-radius: 10px;
-    /* border-width: 2px; border-color: blue; border-style: solid; */
     width: 400px;
     height: 600px;
-    box-sizing: border-box;
-
-}
-
-.photoContainer{
-    /*margin: 10px; /*внешние отступы все по 10px - сокращенная запись*/
-    /*margin: 40px 10px 15px 10px; */
-    margin-top: 40px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 15px;
-    border: 2px solid gray;
-    border-radius: 100px;
-    background-image: url('https://cdn.uarizonabootcamp.com/wp-content/uploads/sites/56/2019/06/BlogImage_WebDeveloper1.jpg');
-    width: 200px;
-    height: 200px;
-    background-size: cover; /*растяжимость и заполнение изображением контейнера cover-обрезать и заполнить контейнер, contain - заполнит контейнер с большой стороны (если repeat повторит с меньшей стороны изображение)*/
-    background-repeat: no-repeat; /*не дублировать изображения*/
-    box-sizing: border-box; /*пересчет отступов и полей для контейнера*/ 
-}
-
-.infoContainer{
-    border: 1px solid gray;
-}
-
-.userName{
-    font-weight: bold;
-    font-size: 30px;
-    color: rgba(0,0,0,1);
-    /*размещение текста*/
-    text-align: center;
-}
-
-.userJob{
-    font-size: 25px;
-    color: rgba(0,0,0,0.4);
-    text-align: center;
-}
-
-.buttonStyle{
-    border: 1px solid black;
-    width: 120px;
-    height: 50px;
-    border-radius: 5px;
-    color: black;
-    background-color: cornflowerblue;
-    text-align: center;
-}
-
-li{
-    border: 1px solid red;
-    font-size: 20px;
-    margin: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 20px;
-    padding-bottom: 15px;
+    margin: 20px;
 }
