@@ -2,10 +2,11 @@
     list-style-type: none;
 }
 
-li {
+ul.nav > li {
     font-size: 20px;
     border: 2px solid deepskyblue;
     width: 200px; 
     height: 30px;
     display: inline-block;
 }
+
