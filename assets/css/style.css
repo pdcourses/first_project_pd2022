@@ -1,40 +1,9 @@
-/*
-.nav{
-    list-style-type: none;
-}
-
-ul.nav > li {
+.header_style{
     font-size: 20px;
-    border: 2px solid deepskyblue;
-    width: 200px; 
-    height: 30px;
-    display: inline-block;
-}
-*/
-p{
-    color: darkcyan;
-}
-/*оно применится для всех
-параграфов которые 
-находятся в div с классом class3
-на любом уровне вложенности
-вне зависимости от структуры*/
-div.class3 p{
-    color: orange;
+    color: red;
+    text-transform: uppercase;
 }
 
-/*правило для параграфов которые 
-находятся в div с классом class3
-только на 1 уровне вложенности*/
-div.class3 > p{
-    color: orange;
+#idhedeer2{
+    border: 2px solid greenyellow;
 }
-
-.class3{
-    border: 2px solid tomato;
-    background-color: beige;
-}
-
-
-
-
