@@ -14,13 +14,27 @@ ul.nav > li {
 p{
     color: darkcyan;
 }
-
-div > p{
+/*оно применится для всех
+параграфов которые 
+находятся в div с классом class3
+на любом уровне вложенности
+вне зависимости от структуры*/
+div.class3 p{
     color: orange;
 }
 
-.class1 > p {
-    color: red;
+/*правило для параграфов которые 
+находятся в div с классом class3
+только на 1 уровне вложенности*/
+div.class3 > p{
+    color: orange;
 }
+
+.class3{
+    border: 2px solid tomato;
+    background-color: beige;
+}
+
+
 
 
